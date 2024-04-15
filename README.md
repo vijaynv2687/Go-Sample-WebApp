@@ -7,9 +7,10 @@ Install all required dependencies
 
 ##
         rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.2.linux-amd64.tar.gz  
-    
-yum -y install docker  
-yum -y install nginx  
+##
+                yum -y install docker  
+##
+                yum -y install nginx  
 
 
 Build docker image  
