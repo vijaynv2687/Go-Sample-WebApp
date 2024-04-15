@@ -23,7 +23,8 @@ Start Web Server
     systemctl start nginx  
 ##
     systemctl status nginx  
-Test
+Test  
+
 To list if there any docker images running  
 ##
         docker ps 
@@ -37,5 +38,4 @@ to run the docker image to bring up the webapp
 ##
         docker run -d -p 8080:3000 localhost/webapp
 Open browser to launch the webapp(Registration page loads up) locally  
-##
-        http://ipadd:8080
+http://ipadd:8080
