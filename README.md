@@ -34,7 +34,7 @@ To list if there are any docker images running or exited
 To list the docker iamges built  
 ##
         docker images  
-to run the docker image to bring up the webapp  
+To run the docker image to bring up the webapp  
 ##
         docker run -d -p 8080:3000 localhost/webapp
 Open browser to launch the webapp(Registration page loads up) locally --> use docker host IP Address in the below URL:  
