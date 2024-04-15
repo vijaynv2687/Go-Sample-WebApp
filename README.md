@@ -25,8 +25,8 @@ systemctl status nginx
 
 Test
 
-docker ps ------> to list if there any docker images running 
-docker ps -a ---> to list if there are any docker images running or exited
-docker images --> to list the docker iamges built
-docker run -d -p 8080:3000 localhost/webapp --> to run the docker image to bring up the webapp
-http://ipadd:8080 ---> open browser to launch the webapp(Registration page loads up) locally
+docker ps ------> to list if there any docker images running  
+docker ps -a ---> to list if there are any docker images running or exited  
+docker images --> to list the docker iamges built  
+docker run -d -p 8080:3000 localhost/webapp --> to run the docker image to bring up the webapp  
+http://ipadd:8080 ---> open browser to launch the webapp(Registration page loads up) locally  
