@@ -1,4 +1,4 @@
-## Go-Sample-WebApp
+# Go-Sample-WebApp
 
 
 This repo provides all the necessary files and code to be able to understand the basic requirements for deploying a docker image of sample registration form, with HTML file, backed golang code and dockerfile.
@@ -23,7 +23,7 @@ This repo provides all the necessary files and code to be able to understand the
     systemctl start nginx  
 ##
     systemctl status nginx  
-## Test  
+# Test  
 
 # To list if there any docker images running  
 ##
