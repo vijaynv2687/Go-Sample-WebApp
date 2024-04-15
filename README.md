@@ -23,7 +23,7 @@ This repo provides all the necessary files and code to be able to understand the
     systemctl start nginx  
 ##
     systemctl status nginx  
-# Test  
+## Test  
 
 # To list if there any docker images running  
 ##
@@ -37,6 +37,6 @@ This repo provides all the necessary files and code to be able to understand the
 # To run the docker image to bring up the webapp  
 ##
         docker run -d -p 8080:3000 localhost/webapp
-#Open browser to launch the webapp(Registration page loads up) locally --> use docker host IP Address in the below URL:  
+Open browser to launch the webapp(Registration page loads up) locally --> use docker host IP Address in the below URL:  
 
 http://ipadd:8080
