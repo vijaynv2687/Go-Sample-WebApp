@@ -18,18 +18,24 @@ Build docker image
 ##
     docker build . -f dockerfile -t webapp  
 
-
 Start Web Server  
 ##
     systemctl start nginx  
 ##
     systemctl status nginx  
-
-
 Test
-to list if there any docker images running
-docker ps 
-docker ps -a ---> to list if there are any docker images running or exited  
-docker images --> to list the docker iamges built  
-docker run -d -p 8080:3000 localhost/webapp --> to run the docker image to bring up the webapp  
-http://ipadd:8080 ---> open browser to launch the webapp(Registration page loads up) locally  
+To list if there any docker images running  
+##
+        docker ps 
+To list if there are any docker images running or exited  
+##
+        docker ps -a 
+To list the docker iamges built  
+##
+        docker images  
+to run the docker image to bring up the webapp  
+##
+        docker run -d -p 8080:3000 localhost/webapp
+Open browser to launch the webapp(Registration page loads up) locally  
+##
+        http://ipadd:8080
