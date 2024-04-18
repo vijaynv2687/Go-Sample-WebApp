@@ -7,7 +7,6 @@ import (
 )
 
 func handlerFunc(w http.ResponseWriter, r *http.Request) {
-	//fmt.Fprint(w, "<h1>Welcome to my site built in golang!</h1>")
 	tmpl := template.Must(template.ParseFiles("Registration.html"))
 	tmpl.Execute(w, nil)
 }
