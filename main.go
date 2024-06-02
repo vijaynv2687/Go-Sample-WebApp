@@ -13,6 +13,6 @@ func handlerFunc(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/", handlerFunc)
-	fmt.Println("Starting the server on 3 thousand:3000")
+	fmt.Println("Starting the server on three savira:3000")
 	http.ListenAndServe(":3000", nil)
 }
